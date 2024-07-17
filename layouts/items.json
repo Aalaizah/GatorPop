@@ -21,39 +21,38 @@
                                 "sword",
                                 "shield",
                                 "ranged",
-                                "bracelet"           
+                                "bracelet",
+                                "glider"           
                             ],
                             [
                                 "starter_hat",
                                 "pot_q",
                                 "bomb",
                                 "rock",
-                                ""
+                                "broken_scooter",
+                                "retainer"
                             ],
                             [
-                                "broken_scooter",
-                                "retainer",
+                                
                                 "thrown_pencil_1",
                                 "sorbet",
-                                ""
-                            ],
-                            [
                                 "clippings",
                                 "bucket",
                                 "water",
-                                "clippings",
-                                ""
+                                "clippings"
                             ],
                             [
                                 "ore",
                                 "sandwich",
                                 "bug_net",
                                 "",
+                                "",
                                 ""
                             ],
                             [
                                 "hard",
                                 "can_clear_tutorial",
+                                "",
                                 "",
                                 "",
                                 ""

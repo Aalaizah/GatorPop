@@ -42,6 +42,12 @@
             }
         ]
     },
+    {
+        "name": "Glider",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "glider"
+    },
 
     {
         "name": "Bowling Bomb",
