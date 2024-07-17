@@ -17,12 +17,46 @@
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "toggle",
-                                "progressive"           
+                                "cardboard_destroyer",
+                                "sword",
+                                "shield",
+                                "ranged",
+                                "bracelet"           
                             ],
                             [
-                                "consumable",
-                                "progressive_toggle"
+                                "starter_hat",
+                                "pot_q",
+                                "bomb",
+                                "rock",
+                                ""
+                            ],
+                            [
+                                "broken_scooter",
+                                "retainer",
+                                "thrown_pencil_1",
+                                "sorbet",
+                                ""
+                            ],
+                            [
+                                "clippings",
+                                "bucket",
+                                "water",
+                                "clippings",
+                                ""
+                            ],
+                            [
+                                "ore",
+                                "sandwich",
+                                "bug_net",
+                                "",
+                                ""
+                            ],
+                            [
+                                "hard",
+                                "can_clear_tutorial",
+                                "",
+                                "",
+                                ""
                             ]
                         ]
                     }

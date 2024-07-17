@@ -1,56 +1,161 @@
 //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
 [
     {
-        "name": "Toggle",
+        "name": "Cardboard Destroyer",
         "type": "toggle",
         "img": "images/items/toggle.png",
-        "codes": "toggle"
+        "codes": "cardboard_destroyer"
     },
     {
-        "name": "Progressive",
+        "name": "Sword",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "sword"
+    },
+    {
+        "name": "Shield",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "shield"
+    },
+    {
+        "name": "Ranged",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "ranged"
+    },
+    {
+        "name": "Bracelet",
         "type": "progressive",
         "allow_disabled": true,
         "initial_stage_idx": 0,
         "stages": [
             {
                 "img": "images/items/progressive.png",
-                "codes": "progressive",
+                "codes": "bracelet",
                 "inherit_codes": false
             },
             {
                 "img": "images/items/progressive_2.png",
-                "codes": "progressive_2",
+                "codes": "bracelet_2",
                 "inherit_codes": false
             }
         ]
     },
+
     {
-        "name": "Consumable",
-        "type": "consumable",
-        "img": "images/items/consumable.png",
-        "max_quantity": 8,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 1,
-        "overlay_background": "#000000",
-        "overlay_font_size": 8,
-        "codes": "consumable"
+        "name": "Bowling Bomb",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "bomb"
     },
     {
-        "name": "Progressive Toggle",
-        "type": "progressive_toggle",
+        "name": "Rock",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "rock"
+    },
+
+    {
+        "name": "Pointy Floppy Thing",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "starter_hat"
+    },
+    {
+        "name": "Pot?",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "pot_q"
+    },
+    {
+        "name": "Broken Scooter",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "broken_scooter"
+    },
+    {
+        "name": "Shark Retainer",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "retainer"
+    },
+    {
+        "name": "Thrown Pencil",
+        "type": "progressive",
+        "allow_disabled": true,
         "initial_stage_idx": 0,
         "stages": [
             {
                 "img": "images/items/progressive.png",
-                "codes": "progressive_toggle",
+                "codes": "thrown_pencil_1",
                 "inherit_codes": false
             },
             {
                 "img": "images/items/progressive_2.png",
-                "codes": "progressive_toggle_2",
+                "codes": "thrown_pencil_2",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/progressive_2.png",
+                "codes": "thrown_pencil_3",
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Grass Clippings",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "clippings"
+    },
+    {
+        "name": "Bucket",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "bucket"
+    },
+    {
+        "name": "Water",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "water"
+    },
+    {
+        "name": "Magic Ore",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "ore"
+    },
+    {
+        "name": "Cheese Sandwich",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "sandwich"
+    },
+    {
+        "name": "Bug Net",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "bug_net"
+    },
+    {
+        "name": "Sorbet",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "sorbet"
+    },
+
+    {
+        "name": "Hard Setting",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "hard"
+    },
+    {
+        "name": "Can Clear Tutorial",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "can_clear_tutorial"
     }
 ]

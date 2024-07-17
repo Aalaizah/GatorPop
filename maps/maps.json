@@ -1,10 +1,10 @@
 //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
 [
     {
-        "name": "map1",
-        "location_size": 48,
+        "name": "the_island",
+        "location_size": 24,
         "location_border_thickness": 4,
-        "img": "images/maps/map.png"
+        "img": "images/maps/gator_map_zoom3.png"
     },
     {
         "name": "map2",
