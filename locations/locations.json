@@ -34,7 +34,7 @@
                         "client_name_id": "Shirt",
                         "location_group": "",
                         "access_rules": [
-                            "starter_hat, $cardboard_destroyer"
+                            "starter_hat,$cardboard_destroyer"
                         ]
                     }
                 ]
@@ -56,7 +56,7 @@
                         "location_id": 100002194,
                         "region": "Tutorial Island",
                         "client_id": null,
-                        "client_name_id": "$Sword_Stick",
+                        "client_name_id": "Sword_Stick",
                         "location_group": "",
                         "access_rules": []
                     }
@@ -170,7 +170,7 @@
                         "location_id": 100002200,
                         "region": "Tutorial Island",
                         "client_id": null,
-                        "client_name_id": "$Sword_Wood",
+                        "client_name_id": "Sword_Wood",
                         "location_group": "",
                         "access_rules": [
                             "$cardboard_destroyer"
@@ -235,818 +235,6 @@
                         "location_group": "",
                         "access_rules": [
                             "$cardboard_destroyer"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Pots Shootable from Tutorial Island",
-                "access_rules": [
-                    "$ranged",
-                    "$can_clear_tutorial,bracelet,$cardboard_destroyer",
-                    "$can_clear_tutorial,glider,$cardboard_destroyer"
-                ],
-                "children": [
-                    {
-                        "name": "Pot (C3) on cliff area across from Martin's deck (on raised section)",
-                        "region": "Pots Shootable from Tutorial Island",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 767,
-                                "y": 488
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "North (Mountain) - Pot (C3) on cliff area across from Martin's deck (on raised section)",
-                                "location_id": 100001156,
-                                "region": "Pots Shootable from Tutorial Island",
-                                "client_id": 1157,
-                                "client_name_id": "",
-                                "location_group": "Pot",
-                                "access_rules": []
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Pot (C3) on cliff outcropping northwest and down from Twig",
-                        "region": "Pots Shootable from Tutorial Island",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 734,
-                                "y": 603
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "North (Mountain) - Pot (C3) on cliff outcropping northwest and down from Twig",
-                                "location_id": 100001158,
-                                "region": "Pots Shootable from Tutorial Island",
-                                "client_id": 1159,
-                                "client_name_id": "",
-                                "location_group": "Pot",
-                                "access_rules": []
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Pot (C3) on cliff area across from Martin's deck (next to cliffface)",
-                        "region": "Pots Shootable from Tutorial Island",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 815,
-                                "y": 513
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "North (Mountain) - Pot (C3) on cliff area across from Martin's deck (next to cliffface)",
-                                "location_id": 100001166,
-                                "region": "Pots Shootable from Tutorial Island",
-                                "client_id": 1167,
-                                "client_name_id": "",
-                                "location_group": "Pot",
-                                "access_rules": []
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Pot (D3) on cliff outcropping west and down from Twig",
-                        "region": "Pots Shootable from Tutorial Island",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 758,
-                                "y": 654
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "North (Mountain) - Pot (D3) on cliff outcropping west and down from Twig",
-                                "location_id": 100001194,
-                                "region": "Pots Shootable from Tutorial Island",
-                                "client_id": 1195,
-                                "client_name_id": "",
-                                "location_group": "Pot",
-                                "access_rules": [
-                                    "$ranged",
-                                    "bracelet"
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Tutorial Island Races",
-                "access_rules": [
-                    ""
-                ],
-                "children": [
-                    {
-                        "name": "Race (C2) starting near Martin's lawn chairs",
-                        "region": "Tutorial Island Races",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 607,
-                                "y": 418
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Race (C2) starting near Martin's lawn chairs",
-                                "location_id": 100000382,
-                                "region": "Tutorial Island Races",
-                                "client_id": 383,
-                                "client_name_id": "",
-                                "location_group": "Race",
-                                "access_rules": [
-                                    "$shield"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Race (C2) starting near grassy cliff",
-                        "region": "Tutorial Island Races",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 526,
-                                "y": 414
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Race (C2) starting near grassy cliff",
-                                "location_id": 100000391,
-                                "region": "Tutorial Island Races",
-                                "client_id": 392,
-                                "client_name_id": "",
-                                "location_group": "Race",
-                                "access_rules": [
-                                    "$shield"
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Tutorial Island Breakables",
-                "access_rules": [
-                    "$cardboard_destroyer"
-                ],
-                "children": [
-                    {
-                        "name": "Pot (B1) between two waterfalls below ???'s Tutorial Island location",
-                        "region": "Tutorial Island Breakables",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 388,
-                                "y": 359
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Pot (B1) between two waterfalls below ???'s Tutorial Island location",
-                                "location_id": 100000167,
-                                "region": "Tutorial Island Breakables",
-                                "client_id": 168,
-                                "client_name_id": "",
-                                "location_group": "Pot",
-                                "access_rules": []
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Pot (B1) on pillar by waterfalls",
-                        "region": "Tutorial Island Breakables",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 404,
-                                "y": 301
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Pot (B1) on pillar by waterfalls",
-                                "location_id": 100000168,
-                                "region": "Tutorial Island Breakables",
-                                "client_id": 169,
-                                "client_name_id": "",
-                                "location_group": "Pot",
-                                "access_rules": []
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Pot (B2) on green cliff east of Simon's starting location",
-                        "region": "Tutorial Island Breakables",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 531,
-                                "y": 272
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Pot (B2) on green cliff east of Simon's starting location",
-                                "location_id": 100000175,
-                                "region": "Tutorial Island Breakables",
-                                "client_id": 176,
-                                "client_name_id": "",
-                                "location_group": "Pot",
-                                "access_rules": []
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Pot (B0) at the end of the bone path on the west of Tutorial Island",
-                        "region": "Tutorial Island Breakables",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 115,
-                                "y": 395
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Pot (B0) at the end of the bone path on the west of Tutorial Island",
-                                "location_id": 100000179,
-                                "region": "Tutorial Island Breakables",
-                                "client_id": 180,
-                                "client_name_id": "",
-                                "location_group": "Pot",
-                                "access_rules": []
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Chest (D1) on small island south of Jill's picnic table",
-                        "region": "Tutorial Island Breakables",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 260,
-                                "y": 717
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Chest (D1) on small island south of Jill's picnic table",
-                                "location_id": 100000183,
-                                "region": "Tutorial Island Breakables",
-                                "client_id": 184,
-                                "client_name_id": "",
-                                "location_group": "Chest",
-                                "access_rules": [
-                                    "$ranged",
-                                    "bracelet"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Chest (A3) below Gerald to east",
-                        "region": "Tutorial Island Breakables",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 618,
-                                "y": 177
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Chest (A3) below Gerald to east",
-                                "location_id": 100000184,
-                                "region": "Tutorial Island Breakables",
-                                "client_id": 185,
-                                "client_name_id": "",
-                                "location_group": "Chest",
-                                "access_rules": []
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Pot (B2) below Gerald to the south near water level (westmost)",
-                        "region": "Tutorial Island Breakables",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 558,
-                                "y": 226
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Pot (B2) below Gerald to the south near water level (westmost)",
-                                "location_id": 100000189,
-                                "region": "Tutorial Island Breakables",
-                                "client_id": 190,
-                                "client_name_id": "",
-                                "location_group": "Pot",
-                                "access_rules": []
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Pot (D0) on small peninsula southwest of Jill's picnic table",
-                        "region": "Tutorial Island Breakables",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 179,
-                                "y": 715
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Pot (D0) on small peninsula southwest of Jill's picnic table",
-                                "location_id": 100000190,
-                                "region": "Tutorial Island Breakables",
-                                "client_id": 191,
-                                "client_name_id": "",
-                                "location_group": "Pot",
-                                "access_rules": []
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Pot (B2) on green cliff northwest of Martin's lawn chairs",
-                        "region": "Tutorial Island Breakables",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 550,
-                                "y": 314
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Pot (B2) on green cliff northwest of Martin's lawn chairs",
-                                "location_id": 100000202,
-                                "region": "Tutorial Island Breakables",
-                                "client_id": 203,
-                                "client_name_id": "",
-                                "location_group": "Pot",
-                                "access_rules": []
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Pot (B2) below Gerald to the south near water level (eastmost)",
-                        "region": "Tutorial Island Breakables",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 607,
-                                "y": 216
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Pot (B2) below Gerald to the south near water level (eastmost)",
-                                "location_id": 100000219,
-                                "region": "Tutorial Island Breakables",
-                                "client_id": 220,
-                                "client_name_id": "",
-                                "location_group": "Pot",
-                                "access_rules": []
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Pot (B1) between two waterfalls on same level as ???'s Tutorial Island location",
-                        "region": "Tutorial Island Breakables",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 397,
-                                "y": 350
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Pot (B1) between two waterfalls on same level as ???'s Tutorial Island location",
-                                "location_id": 100000225,
-                                "region": "Tutorial Island Breakables",
-                                "client_id": 226,
-                                "client_name_id": "",
-                                "location_group": "Pot",
-                                "access_rules": []
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Pot (B2) below Gerald to the south near water level (middle)",
-                        "region": "Tutorial Island Breakables",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 584,
-                                "y": 218
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Pot (B2) below Gerald to the south near water level (middle)",
-                                "location_id": 100000228,
-                                "region": "Tutorial Island Breakables",
-                                "client_id": 229,
-                                "client_name_id": "",
-                                "location_group": "Pot",
-                                "access_rules": []
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Pot (D1) on small island with chest south of Jill's picnic table",
-                        "region": "Tutorial Island Breakables",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 280,
-                                "y": 741
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Pot (D1) on small island with chest south of Jill's picnic table",
-                                "location_id": 100000232,
-                                "region": "Tutorial Island Breakables",
-                                "client_id": 233,
-                                "client_name_id": "",
-                                "location_group": "Pot",
-                                "access_rules": []
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Pot (B0) southwest of the three ropes in northwest of Tutorial Island",
-                        "region": "Tutorial Island Breakables",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 183,
-                                "y": 218
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Pot (B0) southwest of the three ropes in northwest of Tutorial Island",
-                                "location_id": 100000234,
-                                "region": "Tutorial Island Breakables",
-                                "client_id": 235,
-                                "client_name_id": "",
-                                "location_group": "Pot",
-                                "access_rules": []
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Pot (B1) near middle rope of the three ropes in northwest of Tutorial Island",
-                        "region": "Tutorial Island Breakables",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 243,
-                                "y": 213
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Pot (B1) near middle rope of the three ropes in northwest of Tutorial Island",
-                                "location_id": 100000237,
-                                "region": "Tutorial Island Breakables",
-                                "client_id": 238,
-                                "client_name_id": "",
-                                "location_group": "Pot",
-                                "access_rules": []
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Pot (C1) on rock near Stick pickup location",
-                        "region": "Tutorial Island Breakables",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 250,
-                                "y": 427
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Pot (C1) on rock near Stick pickup location",
-                                "location_id": 100000365,
-                                "region": "Tutorial Island Breakables",
-                                "client_id": 366,
-                                "client_name_id": "",
-                                "location_group": "Pot",
-                                "access_rules": []
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Pot (C1) on hill overlooking Jill's picnic table",
-                        "region": "Tutorial Island Breakables",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 330,
-                                "y": 532
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Pot (C1) on hill overlooking Jill's picnic table",
-                                "location_id": 100000366,
-                                "region": "Tutorial Island Breakables",
-                                "client_id": 367,
-                                "client_name_id": "",
-                                "location_group": "Pot",
-                                "access_rules": []
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Pot (C2) on cliff overlooking rope crossing the waterfall",
-                        "region": "Tutorial Island Breakables",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 490,
-                                "y": 429
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Pot (C2) on cliff overlooking rope crossing the waterfall",
-                                "location_id": 100000371,
-                                "region": "Tutorial Island Breakables",
-                                "client_id": 372,
-                                "client_name_id": "",
-                                "location_group": "Pot",
-                                "access_rules": [
-                                    "$ranged",
-                                    "bracelet"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Chest (B1) on mid-cliff outcropping visible from bone path on the west of Tutorial Island",
-                        "region": "Tutorial Island Breakables",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 176,
-                                "y": 260
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Chest (B1) on mid-cliff outcropping visible from bone path on the west of Tutorial Island",
-                                "location_id": 100000372,
-                                "region": "Tutorial Island Breakables",
-                                "client_id": 373,
-                                "client_name_id": "",
-                                "location_group": "Chest",
-                                "access_rules": []
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Pot (B1) on peak north of tallest peak on Tutorial Island",
-                        "region": "Tutorial Island Breakables",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 218,
-                                "y": 331
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Pot (B1) on peak north of tallest peak on Tutorial Island",
-                                "location_id": 100000406,
-                                "region": "Tutorial Island Breakables",
-                                "client_id": 407,
-                                "client_name_id": "",
-                                "location_group": "Pot",
-                                "access_rules": [
-                                    "$ranged",
-                                    "bracelet"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Pot (B1) west of rope to tallest peaks on Tutorial Island",
-                        "region": "Tutorial Island Breakables",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 243,
-                                "y": 277
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Pot (B1) west of rope to tallest peaks on Tutorial Island",
-                                "location_id": 100000411,
-                                "region": "Tutorial Island Breakables",
-                                "client_id": 412,
-                                "client_name_id": "",
-                                "location_group": "Pot",
-                                "access_rules": [
-                                    "$ranged",
-                                    "bracelet"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Pot (A3) on green outcropping below and east of cliffs east of three ropes",
-                        "region": "Tutorial Island Breakables",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 450,
-                                "y": 163
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Pot (A3) on green outcropping below and east of cliffs east of three ropes",
-                                "location_id": 100000422,
-                                "region": "Tutorial Island Breakables",
-                                "client_id": 423,
-                                "client_name_id": "",
-                                "location_group": "Pot",
-                                "access_rules": []
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Pot (B1) on peak south of the three ropes in northwest of Tutorial Island",
-                        "region": "Tutorial Island Breakables",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 279,
-                                "y": 213
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Pot (B1) on peak south of the three ropes in northwest of Tutorial Island",
-                                "location_id": 100000424,
-                                "region": "Tutorial Island Breakables",
-                                "client_id": 425,
-                                "client_name_id": "",
-                                "location_group": "Pot",
-                                "access_rules": [
-                                    "$ranged",
-                                    "bracelet"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Pot (A3) on green outcropping within cliffs east of three ropes",
-                        "region": "Tutorial Island Breakables",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 412,
-                                "y": 182
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Pot (A3) on green outcropping within cliffs east of three ropes",
-                                "location_id": 100000425,
-                                "region": "Tutorial Island Breakables",
-                                "client_id": 426,
-                                "client_name_id": "",
-                                "location_group": "Pot",
-                                "access_rules": []
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Pot (B2) on tall peak west of Gerald",
-                        "region": "Tutorial Island Breakables",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 465,
-                                "y": 222
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Pot (B2) on tall peak west of Gerald",
-                                "location_id": 100000426,
-                                "region": "Tutorial Island Breakables",
-                                "client_id": 427,
-                                "client_name_id": "",
-                                "location_group": "Pot",
-                                "access_rules": [
-                                    "$ranged",
-                                    "bracelet"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Chest (B1) on tallest peak of Tutorial Island",
-                        "region": "Tutorial Island Breakables",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 257,
-                                "y": 332
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Chest (B1) on tallest peak of Tutorial Island",
-                                "location_id": 100000432,
-                                "region": "Tutorial Island Breakables",
-                                "client_id": 433,
-                                "client_name_id": "",
-                                "location_group": "Chest",
-                                "access_rules": [
-                                    "bracelet"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Pot (A1) near highest rope of the three ropes in northwest of Tutorial Island",
-                        "region": "Tutorial Island Breakables",
-                        "access_rules": [],
-                        "map_locations": [
-                            {
-                                "map": "the_island",
-                                "x": 287,
-                                "y": 201
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Tutorial Island - Pot (A1) near highest rope of the three ropes in northwest of Tutorial Island",
-                                "location_id": 100000561,
-                                "region": "Tutorial Island Breakables",
-                                "client_id": 562,
-                                "client_name_id": "",
-                                "location_group": "Pot",
-                                "access_rules": []
-                            }
                         ]
                     }
                 ]
@@ -1306,7 +494,7 @@
                                 "location_id": 100002217,
                                 "region": "Big Island",
                                 "client_id": null,
-                                "client_name_id": "$Sword_Pencil",
+                                "client_name_id": "Sword_Pencil",
                                 "location_group": "",
                                 "access_rules": [
                                     "$has_at_least_n_pencil|3"
@@ -1721,7 +909,7 @@
                                 "location_id": 100002245,
                                 "region": "Big Island",
                                 "client_id": null,
-                                "client_name_id": "$Sword_Paintbrush",
+                                "client_name_id": "Sword_Paintbrush",
                                 "location_group": "",
                                 "access_rules": [
                                     "$cardboard_destroyer"
@@ -1782,7 +970,7 @@
                                 "location_id": 100002248,
                                 "region": "Big Island",
                                 "client_id": null,
-                                "client_name_id": "$Sword_Nunchucks",
+                                "client_name_id": "Sword_Nunchucks",
                                 "location_group": "",
                                 "access_rules": [
                                     "$cardboard_destroyer"
@@ -2053,7 +1241,7 @@
                                 "location_id": 100002263,
                                 "region": "Big Island",
                                 "client_id": null,
-                                "client_name_id": "$Sword_Wand",
+                                "client_name_id": "Sword_Wand",
                                 "location_group": "",
                                 "access_rules": [
                                     "$cardboard_destroyer"
@@ -2101,7 +1289,7 @@
                                 "location_id": 100002265,
                                 "region": "Big Island",
                                 "client_id": null,
-                                "client_name_id": "$Sword_RockHammer",
+                                "client_name_id": "Sword_RockHammer",
                                 "location_group": "",
                                 "access_rules": [
                                     "ore,$ranged",
@@ -2177,7 +1365,7 @@
                                 "location_id": 100002268,
                                 "region": "Big Island",
                                 "client_id": null,
-                                "client_name_id": "$Sword_Net",
+                                "client_name_id": "Sword_Net",
                                 "location_group": "",
                                 "access_rules": []
                             }
@@ -2329,6 +1517,185 @@
                                 "location_group": "",
                                 "access_rules": [
                                     "rock"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Big Island Races",
+                        "access_rules": [
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "name": "Race (G0) starting from island west of Billy's Forest location",
+                                "region": "Big Island Races",
+                                "access_rules": [],
+                                "map_locations": [
+                                    {
+                                        "map": "the_island",
+                                        "x": 108,
+                                        "y": 1318
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "West (Forest) - Race (G0) starting from island west of Billy's Forest location",
+                                        "location_id": 100000072,
+                                        "region": "Big Island Races",
+                                        "client_id": 73,
+                                        "client_name_id": "",
+                                        "location_group": "Race",
+                                        "access_rules": [
+                                            "$shield"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Race (C4) starting on western peak of the Mountain",
+                                "region": "Big Island Races",
+                                "access_rules": [],
+                                "map_locations": [
+                                    {
+                                        "map": "the_island",
+                                        "x": 902,
+                                        "y": 590
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "North (Mountain) - Race (C4) starting on western peak of the Mountain",
+                                        "location_id": 100000303,
+                                        "region": "Big Island Races",
+                                        "client_id": 304,
+                                        "client_name_id": "",
+                                        "location_group": "Race",
+                                        "access_rules": [
+                                            "$shield,bracelet"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Race (C7) starting west of Kasen",
+                                "region": "Big Island Races",
+                                "access_rules": [],
+                                "map_locations": [
+                                    {
+                                        "map": "the_island",
+                                        "x": 1496,
+                                        "y": 473
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Northeast (Canyon) - Race (C7) starting west of Kasen",
+                                        "location_id": 100000753,
+                                        "region": "Big Island Races",
+                                        "client_id": 754,
+                                        "client_name_id": "",
+                                        "location_group": "Race",
+                                        "access_rules": [
+                                            "$shield"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Race (B6) starting east of waterfall on north side of Mountain",
+                                "region": "Big Island Races",
+                                "access_rules": [],
+                                "map_locations": [
+                                    {
+                                        "map": "the_island",
+                                        "x": 1383,
+                                        "y": 265
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Northeast (Canyon) - Race (B6) starting east of waterfall on north side of Mountain",
+                                        "location_id": 100000813,
+                                        "region": "Big Island Races",
+                                        "client_id": 814,
+                                        "client_name_id": "",
+                                        "location_group": "Race",
+                                        "access_rules": [
+                                            "$shield"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Race (H1) starting from southwest of The Tree",
+                                "region": "Big Island Races",
+                                "access_rules": [],
+                                "map_locations": [
+                                    {
+                                        "map": "the_island",
+                                        "x": 390,
+                                        "y": 1530
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "West (Forest) - Race (H1) starting from southwest of The Tree",
+                                        "location_id": 100001399,
+                                        "region": "Big Island Races",
+                                        "client_id": 1400,
+                                        "client_name_id": "",
+                                        "location_group": "Race",
+                                        "access_rules": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Race (F4) starting from west path exit from playground",
+                                "region": "Big Island Races",
+                                "access_rules": [],
+                                "map_locations": [
+                                    {
+                                        "map": "the_island",
+                                        "x": 902,
+                                        "y": 1176
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "West (Forest) - Race (F4) starting from west path exit from playground",
+                                        "location_id": 100001409,
+                                        "region": "Big Island Races",
+                                        "client_id": 1410,
+                                        "client_name_id": "",
+                                        "location_group": "Race",
+                                        "access_rules": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Race (D5) starting north of the playground and heading up the Mountain",
+                                "region": "Big Island Races",
+                                "access_rules": [],
+                                "map_locations": [
+                                    {
+                                        "map": "the_island",
+                                        "x": 1192,
+                                        "y": 779
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "North (Mountain) - Race (D5) starting north of the playground and heading up the Mountain",
+                                        "location_id": 100001745,
+                                        "region": "Big Island Races",
+                                        "client_id": 1746,
+                                        "client_name_id": "",
+                                        "location_group": "Race",
+                                        "access_rules": [
+                                            "bracelet"
+                                        ]
+                                    }
                                 ]
                             }
                         ]
@@ -2521,7 +1888,8 @@
                                         "location_group": "Pot",
                                         "access_rules": [
                                             "$ranged",
-                                            "bracelet"
+                                            "bracelet",
+                                            "$shield_jump"
                                         ]
                                     }
                                 ]
@@ -2831,7 +2199,8 @@
                                         "client_name_id": "",
                                         "location_group": "Chest",
                                         "access_rules": [
-                                            "$ranged"
+                                            "$ranged",
+                                            "bracelet"
                                         ]
                                     }
                                 ]
@@ -3049,7 +2418,7 @@
                                             "$ranged",
                                             "bracelet",
                                             "glider",
-                                            "shield_jump"
+                                            "$shield_jump"
                                         ]
                                     }
                                 ]
@@ -3077,7 +2446,7 @@
                                             "$ranged",
                                             "bracelet",
                                             "glider",
-                                            "shield_jump"
+                                            "$shield_jump"
                                         ]
                                     }
                                 ]
@@ -3389,7 +2758,10 @@
                                         "client_id": 1541,
                                         "client_name_id": "",
                                         "location_group": "Pot",
-                                        "access_rules": []
+                                        "access_rules": [
+                                            "$ranged",
+                                            "bracelet"
+                                        ]
                                     }
                                 ]
                             },
@@ -3440,7 +2812,8 @@
                                         "location_group": "Pot",
                                         "access_rules": [
                                             "$ranged",
-                                            "bracelet"
+                                            "bracelet",
+                                            "$shield_jump"
                                         ]
                                     }
                                 ]
@@ -3466,7 +2839,8 @@
                                         "location_group": "Pot",
                                         "access_rules": [
                                             "$ranged",
-                                            "bracelet"
+                                            "bracelet",
+                                            "$shield_jump"
                                         ]
                                     }
                                 ]
@@ -3702,7 +3076,8 @@
                                         "location_group": "Pot",
                                         "access_rules": [
                                             "$ranged",
-                                            "bracelet"
+                                            "bracelet",
+                                            "$shield_jump"
                                         ]
                                     }
                                 ]
@@ -3829,7 +3204,7 @@
                                         "location_id": 100002278,
                                         "region": "Mountain",
                                         "client_id": null,
-                                        "client_name_id": "$Sword_CBSpear",
+                                        "client_name_id": "Sword_CBSpear",
                                         "location_group": "",
                                         "access_rules": []
                                     }
@@ -3863,7 +3238,7 @@
                                         "location_id": 100002280,
                                         "region": "Mountain",
                                         "client_id": null,
-                                        "client_name_id": "$Sword_Laser",
+                                        "client_name_id": "Sword_Laser",
                                         "location_group": "",
                                         "access_rules": [
                                             "$ranged",
@@ -4005,7 +3380,11 @@
                                                 "client_id": 52,
                                                 "client_name_id": "",
                                                 "location_group": "Pot",
-                                                "access_rules": []
+                                                "access_rules": [
+                                                    "$ranged",
+                                                    "bracelet",
+                                                    "$shield_jump"
+                                                ]
                                             }
                                         ]
                                     },
@@ -4324,7 +3703,7 @@
                                                 "location_group": "Pot",
                                                 "access_rules": [
                                                     "$ranged",
-                                                    "bracelet"
+                                                    "$has_at_least_n_bracelet|2"
                                                 ]
                                             }
                                         ]
@@ -4503,7 +3882,7 @@
                                         "location_id": 100002240,
                                         "region": "Junk 4 Trash",
                                         "client_id": null,
-                                        "client_name_id": "$Sword_Wrench",
+                                        "client_name_id": "Sword_Wrench",
                                         "location_group": "",
                                         "access_rules": []
                                     },
@@ -4521,7 +3900,7 @@
                                         "location_id": 100002242,
                                         "region": "Junk 4 Trash",
                                         "client_id": null,
-                                        "client_name_id": "$Sword_Grabby",
+                                        "client_name_id": "Sword_Grabby",
                                         "location_group": "",
                                         "access_rules": []
                                     },
@@ -4533,185 +3912,6 @@
                                         "client_name_id": "NPC_TrashPanda",
                                         "location_group": "",
                                         "access_rules": []
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Big Island Races",
-                        "access_rules": [
-                            ""
-                        ],
-                        "children": [
-                            {
-                                "name": "Race (G0) starting from island west of Billy's Forest location",
-                                "region": "Big Island Races",
-                                "access_rules": [],
-                                "map_locations": [
-                                    {
-                                        "map": "the_island",
-                                        "x": 108,
-                                        "y": 1318
-                                    }
-                                ],
-                                "sections": [
-                                    {
-                                        "name": "West (Forest) - Race (G0) starting from island west of Billy's Forest location",
-                                        "location_id": 100000072,
-                                        "region": "Big Island Races",
-                                        "client_id": 73,
-                                        "client_name_id": "",
-                                        "location_group": "Race",
-                                        "access_rules": [
-                                            "$shield"
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Race (C4) starting on western peak of the Mountain",
-                                "region": "Big Island Races",
-                                "access_rules": [],
-                                "map_locations": [
-                                    {
-                                        "map": "the_island",
-                                        "x": 902,
-                                        "y": 590
-                                    }
-                                ],
-                                "sections": [
-                                    {
-                                        "name": "North (Mountain) - Race (C4) starting on western peak of the Mountain",
-                                        "location_id": 100000303,
-                                        "region": "Big Island Races",
-                                        "client_id": 304,
-                                        "client_name_id": "",
-                                        "location_group": "Race",
-                                        "access_rules": [
-                                            "$shield,bracelet"
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Race (C7) starting west of Kasen",
-                                "region": "Big Island Races",
-                                "access_rules": [],
-                                "map_locations": [
-                                    {
-                                        "map": "the_island",
-                                        "x": 1496,
-                                        "y": 473
-                                    }
-                                ],
-                                "sections": [
-                                    {
-                                        "name": "Northeast (Canyon) - Race (C7) starting west of Kasen",
-                                        "location_id": 100000753,
-                                        "region": "Big Island Races",
-                                        "client_id": 754,
-                                        "client_name_id": "",
-                                        "location_group": "Race",
-                                        "access_rules": [
-                                            "$shield"
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Race (B6) starting east of waterfall on north side of Mountain",
-                                "region": "Big Island Races",
-                                "access_rules": [],
-                                "map_locations": [
-                                    {
-                                        "map": "the_island",
-                                        "x": 1383,
-                                        "y": 265
-                                    }
-                                ],
-                                "sections": [
-                                    {
-                                        "name": "Northeast (Canyon) - Race (B6) starting east of waterfall on north side of Mountain",
-                                        "location_id": 100000813,
-                                        "region": "Big Island Races",
-                                        "client_id": 814,
-                                        "client_name_id": "",
-                                        "location_group": "Race",
-                                        "access_rules": [
-                                            "$shield"
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Race (H1) starting from southwest of The Tree",
-                                "region": "Big Island Races",
-                                "access_rules": [],
-                                "map_locations": [
-                                    {
-                                        "map": "the_island",
-                                        "x": 390,
-                                        "y": 1530
-                                    }
-                                ],
-                                "sections": [
-                                    {
-                                        "name": "West (Forest) - Race (H1) starting from southwest of The Tree",
-                                        "location_id": 100001399,
-                                        "region": "Big Island Races",
-                                        "client_id": 1400,
-                                        "client_name_id": "",
-                                        "location_group": "Race",
-                                        "access_rules": []
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Race (F4) starting from west path exit from playground",
-                                "region": "Big Island Races",
-                                "access_rules": [],
-                                "map_locations": [
-                                    {
-                                        "map": "the_island",
-                                        "x": 902,
-                                        "y": 1176
-                                    }
-                                ],
-                                "sections": [
-                                    {
-                                        "name": "West (Forest) - Race (F4) starting from west path exit from playground",
-                                        "location_id": 100001409,
-                                        "region": "Big Island Races",
-                                        "client_id": 1410,
-                                        "client_name_id": "",
-                                        "location_group": "Race",
-                                        "access_rules": []
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Race (D5) starting north of the playground and heading up the Mountain",
-                                "region": "Big Island Races",
-                                "access_rules": [],
-                                "map_locations": [
-                                    {
-                                        "map": "the_island",
-                                        "x": 1192,
-                                        "y": 779
-                                    }
-                                ],
-                                "sections": [
-                                    {
-                                        "name": "North (Mountain) - Race (D5) starting north of the playground and heading up the Mountain",
-                                        "location_id": 100001745,
-                                        "region": "Big Island Races",
-                                        "client_id": 1746,
-                                        "client_name_id": "",
-                                        "location_group": "Race",
-                                        "access_rules": [
-                                            "bracelet"
-                                        ]
                                     }
                                 ]
                             }
@@ -4799,6 +3999,828 @@
                                         "location_group": "",
                                         "access_rules": []
                                     }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Tutorial Island Races",
+                "access_rules": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "name": "Race (C2) starting near Martin's lawn chairs",
+                        "region": "Tutorial Island Races",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 607,
+                                "y": 418
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Race (C2) starting near Martin's lawn chairs",
+                                "location_id": 100000382,
+                                "region": "Tutorial Island Races",
+                                "client_id": 383,
+                                "client_name_id": "",
+                                "location_group": "Race",
+                                "access_rules": [
+                                    "$shield"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Race (C2) starting near grassy cliff",
+                        "region": "Tutorial Island Races",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 526,
+                                "y": 414
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Race (C2) starting near grassy cliff",
+                                "location_id": 100000391,
+                                "region": "Tutorial Island Races",
+                                "client_id": 392,
+                                "client_name_id": "",
+                                "location_group": "Race",
+                                "access_rules": [
+                                    "$shield"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Tutorial Island Breakables",
+                "access_rules": [
+                    "$cardboard_destroyer"
+                ],
+                "children": [
+                    {
+                        "name": "Pot (B1) between two waterfalls below ???'s Tutorial Island location",
+                        "region": "Tutorial Island Breakables",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 388,
+                                "y": 359
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Pot (B1) between two waterfalls below ???'s Tutorial Island location",
+                                "location_id": 100000167,
+                                "region": "Tutorial Island Breakables",
+                                "client_id": 168,
+                                "client_name_id": "",
+                                "location_group": "Pot",
+                                "access_rules": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pot (B1) on pillar by waterfalls",
+                        "region": "Tutorial Island Breakables",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 404,
+                                "y": 301
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Pot (B1) on pillar by waterfalls",
+                                "location_id": 100000168,
+                                "region": "Tutorial Island Breakables",
+                                "client_id": 169,
+                                "client_name_id": "",
+                                "location_group": "Pot",
+                                "access_rules": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pot (B2) on green cliff east of Simon's starting location",
+                        "region": "Tutorial Island Breakables",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 531,
+                                "y": 272
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Pot (B2) on green cliff east of Simon's starting location",
+                                "location_id": 100000175,
+                                "region": "Tutorial Island Breakables",
+                                "client_id": 176,
+                                "client_name_id": "",
+                                "location_group": "Pot",
+                                "access_rules": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pot (B0) at the end of the bone path on the west of Tutorial Island",
+                        "region": "Tutorial Island Breakables",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 115,
+                                "y": 395
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Pot (B0) at the end of the bone path on the west of Tutorial Island",
+                                "location_id": 100000179,
+                                "region": "Tutorial Island Breakables",
+                                "client_id": 180,
+                                "client_name_id": "",
+                                "location_group": "Pot",
+                                "access_rules": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Chest (D1) on small island south of Jill's picnic table",
+                        "region": "Tutorial Island Breakables",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 260,
+                                "y": 717
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Chest (D1) on small island south of Jill's picnic table",
+                                "location_id": 100000183,
+                                "region": "Tutorial Island Breakables",
+                                "client_id": 184,
+                                "client_name_id": "",
+                                "location_group": "Chest",
+                                "access_rules": [
+                                    "$ranged",
+                                    "bracelet",
+                                    "$shield_jump"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Chest (A3) below Gerald to east",
+                        "region": "Tutorial Island Breakables",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 618,
+                                "y": 177
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Chest (A3) below Gerald to east",
+                                "location_id": 100000184,
+                                "region": "Tutorial Island Breakables",
+                                "client_id": 185,
+                                "client_name_id": "",
+                                "location_group": "Chest",
+                                "access_rules": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pot (B2) below Gerald to the south near water level (westmost)",
+                        "region": "Tutorial Island Breakables",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 558,
+                                "y": 226
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Pot (B2) below Gerald to the south near water level (westmost)",
+                                "location_id": 100000189,
+                                "region": "Tutorial Island Breakables",
+                                "client_id": 190,
+                                "client_name_id": "",
+                                "location_group": "Pot",
+                                "access_rules": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pot (D0) on small peninsula southwest of Jill's picnic table",
+                        "region": "Tutorial Island Breakables",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 179,
+                                "y": 715
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Pot (D0) on small peninsula southwest of Jill's picnic table",
+                                "location_id": 100000190,
+                                "region": "Tutorial Island Breakables",
+                                "client_id": 191,
+                                "client_name_id": "",
+                                "location_group": "Pot",
+                                "access_rules": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pot (B2) on green cliff northwest of Martin's lawn chairs",
+                        "region": "Tutorial Island Breakables",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 550,
+                                "y": 314
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Pot (B2) on green cliff northwest of Martin's lawn chairs",
+                                "location_id": 100000202,
+                                "region": "Tutorial Island Breakables",
+                                "client_id": 203,
+                                "client_name_id": "",
+                                "location_group": "Pot",
+                                "access_rules": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pot (B2) below Gerald to the south near water level (eastmost)",
+                        "region": "Tutorial Island Breakables",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 607,
+                                "y": 216
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Pot (B2) below Gerald to the south near water level (eastmost)",
+                                "location_id": 100000219,
+                                "region": "Tutorial Island Breakables",
+                                "client_id": 220,
+                                "client_name_id": "",
+                                "location_group": "Pot",
+                                "access_rules": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pot (B1) between two waterfalls on same level as ???'s Tutorial Island location",
+                        "region": "Tutorial Island Breakables",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 397,
+                                "y": 350
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Pot (B1) between two waterfalls on same level as ???'s Tutorial Island location",
+                                "location_id": 100000225,
+                                "region": "Tutorial Island Breakables",
+                                "client_id": 226,
+                                "client_name_id": "",
+                                "location_group": "Pot",
+                                "access_rules": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pot (B2) below Gerald to the south near water level (middle)",
+                        "region": "Tutorial Island Breakables",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 584,
+                                "y": 218
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Pot (B2) below Gerald to the south near water level (middle)",
+                                "location_id": 100000228,
+                                "region": "Tutorial Island Breakables",
+                                "client_id": 229,
+                                "client_name_id": "",
+                                "location_group": "Pot",
+                                "access_rules": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pot (D1) on small island with chest south of Jill's picnic table",
+                        "region": "Tutorial Island Breakables",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 280,
+                                "y": 741
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Pot (D1) on small island with chest south of Jill's picnic table",
+                                "location_id": 100000232,
+                                "region": "Tutorial Island Breakables",
+                                "client_id": 233,
+                                "client_name_id": "",
+                                "location_group": "Pot",
+                                "access_rules": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pot (B0) southwest of the three ropes in northwest of Tutorial Island",
+                        "region": "Tutorial Island Breakables",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 183,
+                                "y": 218
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Pot (B0) southwest of the three ropes in northwest of Tutorial Island",
+                                "location_id": 100000234,
+                                "region": "Tutorial Island Breakables",
+                                "client_id": 235,
+                                "client_name_id": "",
+                                "location_group": "Pot",
+                                "access_rules": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pot (B1) near middle rope of the three ropes in northwest of Tutorial Island",
+                        "region": "Tutorial Island Breakables",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 243,
+                                "y": 213
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Pot (B1) near middle rope of the three ropes in northwest of Tutorial Island",
+                                "location_id": 100000237,
+                                "region": "Tutorial Island Breakables",
+                                "client_id": 238,
+                                "client_name_id": "",
+                                "location_group": "Pot",
+                                "access_rules": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pot (C1) on rock near Stick pickup location",
+                        "region": "Tutorial Island Breakables",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 250,
+                                "y": 427
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Pot (C1) on rock near Stick pickup location",
+                                "location_id": 100000365,
+                                "region": "Tutorial Island Breakables",
+                                "client_id": 366,
+                                "client_name_id": "",
+                                "location_group": "Pot",
+                                "access_rules": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pot (C1) on hill overlooking Jill's picnic table",
+                        "region": "Tutorial Island Breakables",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 330,
+                                "y": 532
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Pot (C1) on hill overlooking Jill's picnic table",
+                                "location_id": 100000366,
+                                "region": "Tutorial Island Breakables",
+                                "client_id": 367,
+                                "client_name_id": "",
+                                "location_group": "Pot",
+                                "access_rules": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pot (C2) on cliff overlooking rope crossing the waterfall",
+                        "region": "Tutorial Island Breakables",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 490,
+                                "y": 429
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Pot (C2) on cliff overlooking rope crossing the waterfall",
+                                "location_id": 100000371,
+                                "region": "Tutorial Island Breakables",
+                                "client_id": 372,
+                                "client_name_id": "",
+                                "location_group": "Pot",
+                                "access_rules": [
+                                    "$ranged",
+                                    "bracelet",
+                                    "$shield_jump"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Chest (B1) on mid-cliff outcropping visible from bone path on the west of Tutorial Island",
+                        "region": "Tutorial Island Breakables",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 176,
+                                "y": 260
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Chest (B1) on mid-cliff outcropping visible from bone path on the west of Tutorial Island",
+                                "location_id": 100000372,
+                                "region": "Tutorial Island Breakables",
+                                "client_id": 373,
+                                "client_name_id": "",
+                                "location_group": "Chest",
+                                "access_rules": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pot (B1) on peak north of tallest peak on Tutorial Island",
+                        "region": "Tutorial Island Breakables",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 218,
+                                "y": 331
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Pot (B1) on peak north of tallest peak on Tutorial Island",
+                                "location_id": 100000406,
+                                "region": "Tutorial Island Breakables",
+                                "client_id": 407,
+                                "client_name_id": "",
+                                "location_group": "Pot",
+                                "access_rules": [
+                                    "$ranged",
+                                    "bracelet"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pot (B1) west of rope to tallest peaks on Tutorial Island",
+                        "region": "Tutorial Island Breakables",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 243,
+                                "y": 277
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Pot (B1) west of rope to tallest peaks on Tutorial Island",
+                                "location_id": 100000411,
+                                "region": "Tutorial Island Breakables",
+                                "client_id": 412,
+                                "client_name_id": "",
+                                "location_group": "Pot",
+                                "access_rules": [
+                                    "$ranged",
+                                    "bracelet",
+                                    "$shield_jump"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pot (A3) on green outcropping below and east of cliffs east of three ropes",
+                        "region": "Tutorial Island Breakables",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 450,
+                                "y": 163
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Pot (A3) on green outcropping below and east of cliffs east of three ropes",
+                                "location_id": 100000422,
+                                "region": "Tutorial Island Breakables",
+                                "client_id": 423,
+                                "client_name_id": "",
+                                "location_group": "Pot",
+                                "access_rules": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pot (B1) on peak south of the three ropes in northwest of Tutorial Island",
+                        "region": "Tutorial Island Breakables",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 279,
+                                "y": 213
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Pot (B1) on peak south of the three ropes in northwest of Tutorial Island",
+                                "location_id": 100000424,
+                                "region": "Tutorial Island Breakables",
+                                "client_id": 425,
+                                "client_name_id": "",
+                                "location_group": "Pot",
+                                "access_rules": [
+                                    "$ranged",
+                                    "bracelet",
+                                    "$shield_jump"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pot (A3) on green outcropping within cliffs east of three ropes",
+                        "region": "Tutorial Island Breakables",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 412,
+                                "y": 182
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Pot (A3) on green outcropping within cliffs east of three ropes",
+                                "location_id": 100000425,
+                                "region": "Tutorial Island Breakables",
+                                "client_id": 426,
+                                "client_name_id": "",
+                                "location_group": "Pot",
+                                "access_rules": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pot (B2) on tall peak west of Gerald",
+                        "region": "Tutorial Island Breakables",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 465,
+                                "y": 222
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Pot (B2) on tall peak west of Gerald",
+                                "location_id": 100000426,
+                                "region": "Tutorial Island Breakables",
+                                "client_id": 427,
+                                "client_name_id": "",
+                                "location_group": "Pot",
+                                "access_rules": [
+                                    "$ranged",
+                                    "bracelet"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Chest (B1) on tallest peak of Tutorial Island",
+                        "region": "Tutorial Island Breakables",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 257,
+                                "y": 332
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Chest (B1) on tallest peak of Tutorial Island",
+                                "location_id": 100000432,
+                                "region": "Tutorial Island Breakables",
+                                "client_id": 433,
+                                "client_name_id": "",
+                                "location_group": "Chest",
+                                "access_rules": [
+                                    "bracelet"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pot (A1) near highest rope of the three ropes in northwest of Tutorial Island",
+                        "region": "Tutorial Island Breakables",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 287,
+                                "y": 201
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tutorial Island - Pot (A1) near highest rope of the three ropes in northwest of Tutorial Island",
+                                "location_id": 100000561,
+                                "region": "Tutorial Island Breakables",
+                                "client_id": 562,
+                                "client_name_id": "",
+                                "location_group": "Pot",
+                                "access_rules": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pots Shootable from Tutorial Island",
+                "access_rules": [
+                    "$ranged",
+                    "$can_clear_tutorial,$shield_jump",
+                    "$can_clear_tutorial,bracelet,$cardboard_destroyer",
+                    "$can_clear_tutorial,glider,$cardboard_destroyer"
+                ],
+                "children": [
+                    {
+                        "name": "Pot (C3) on cliff area across from Martin's deck (on raised section)",
+                        "region": "Pots Shootable from Tutorial Island",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 767,
+                                "y": 488
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "North (Mountain) - Pot (C3) on cliff area across from Martin's deck (on raised section)",
+                                "location_id": 100001156,
+                                "region": "Pots Shootable from Tutorial Island",
+                                "client_id": 1157,
+                                "client_name_id": "",
+                                "location_group": "Pot",
+                                "access_rules": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pot (C3) on cliff outcropping northwest and down from Twig",
+                        "region": "Pots Shootable from Tutorial Island",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 734,
+                                "y": 603
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "North (Mountain) - Pot (C3) on cliff outcropping northwest and down from Twig",
+                                "location_id": 100001158,
+                                "region": "Pots Shootable from Tutorial Island",
+                                "client_id": 1159,
+                                "client_name_id": "",
+                                "location_group": "Pot",
+                                "access_rules": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pot (C3) on cliff area across from Martin's deck (next to cliffface)",
+                        "region": "Pots Shootable from Tutorial Island",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 815,
+                                "y": 513
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "North (Mountain) - Pot (C3) on cliff area across from Martin's deck (next to cliffface)",
+                                "location_id": 100001166,
+                                "region": "Pots Shootable from Tutorial Island",
+                                "client_id": 1167,
+                                "client_name_id": "",
+                                "location_group": "Pot",
+                                "access_rules": [
+                                    "$ranged",
+                                    "bracelet",
+                                    "glider"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pot (D3) on cliff outcropping west and down from Twig",
+                        "region": "Pots Shootable from Tutorial Island",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "the_island",
+                                "x": 758,
+                                "y": 654
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "North (Mountain) - Pot (D3) on cliff outcropping west and down from Twig",
+                                "location_id": 100001194,
+                                "region": "Pots Shootable from Tutorial Island",
+                                "client_id": 1195,
+                                "client_name_id": "",
+                                "location_group": "Pot",
+                                "access_rules": [
+                                    "$ranged",
+                                    "bracelet",
+                                    "glider"
                                 ]
                             }
                         ]

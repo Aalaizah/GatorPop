@@ -30,15 +30,14 @@ function can_clear_tutorial()
     if ENABLE_DEBUG_LOG then
         print(string.format("called can_clear_tutorial"))
     end
-    if has("pot_q") and has("starter_hat") and cardboard_destroyer() then
+    if SLOT_DATA["start_with_freeplay"] or (has("pot_q") and has("starter_hat") and cardboard_destroyer()) then
         return 1 -- 1 => access is in logic
     end
     return 0 -- 0 => no access
 end
--- NEED to check for freeplay in slot_data
 
 function cardboard_destroyer()
-    local cd = {"stick","sword","grabby_hand","bug_net","nunchucks","wrench","paleolithic","pot_lid","platter","martin_shield","big_leaf","trampoline","trash_can_lid","rock","blaster","shuriken","bomb","paint_gun"}
+    local cd = {"stick","sword","grabby_hand","bug_net","nunchucks","wrench","paleolithic","pot_lid","platter","martin_shield","big_leaf","trampoline","trash_can","rock","blaster","shuriken","bomb","paint_gun"}
     for i, item in ipairs(cd) do
         if has(item) then
             return 1
@@ -58,7 +57,7 @@ function sword()
 end
 
 function shield()
-    local shields = {"pot_lid","palette","platter","tube","skateboard","martin_shield","chessboard","big_leaf","tower_shield","trash_can_lid","blue_scooter"}
+    local shields = {"pot_lid","palette","platter","tube","skateboard","martin_shield","chessboard","big_leaf","tower_shield","trash_can","blue_scooter"}
     for i, item in ipairs(shields) do
         if has(item) then
             return 1
@@ -78,5 +77,9 @@ function ranged()
 end
 
 function hard()
-    return 0 --eventual option for harder completion for two quests
+    return SLOT_DATA["harder_ranged_quests"] --option for harder completion for two quests
+end
+
+function shield_jump()
+    return SLOT_DATA["require_shield_jump"] and shield()
 end
