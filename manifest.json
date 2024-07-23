@@ -18,5 +18,7 @@
                 "ap" //enables AP autotracking interface - remove if not needed
             ]
         }
-    }
+    },
+    "versions_url": "https://raw.githubusercontent.com/natronium/GatorPop/main/versions.json",
+    "min_poptracker_version": "0.26.0"
 }
