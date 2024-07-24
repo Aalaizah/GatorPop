@@ -1,0 +1,12 @@
+{
+    "versions": [
+        {
+            "package_version": "1.0.0.0",
+            "download_url": "https://github.com/natronium/GatorPop/releases/download/1.0.0.0/GatorPop.zip",
+            "sha256": "",
+            "changelog": [
+                "Initial release"
+            ]
+        }
+    ]
+}
