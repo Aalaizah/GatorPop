@@ -17,45 +17,64 @@
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "cardboard_destroyer",
-                                "sword",
-                                "shield",
-                                "ranged",
                                 "bracelet",
-                                "glider"           
+                                "glider",
+                                "bomb",
+                                "rock"
+                            ],
+                            [
+                                "stick",
+                                "sword",
+                                "paintbrush",
+                                "spear"
+                            ],
+                            [
+                                "laser_sword",
+                                "nunchucks",
+                                "pencil",
+                                "wrench"
+                            ],
+                            [
+                                "paleolithic",
+                                "wand",
+                                "pot_lid",
+                                "palette"
+                            ],
+                            [
+                                "platter",
+                                "skateboard",
+                                "martin_shield",
+                                "chessboard"
+                            ],
+                            [
+                                "big_leaf",
+                                "trampoline",
+                                "tower_shield",
+                                "trash_can"
+                            ],
+                            [
+                                "blue_scooter",
+                                "blaster",
+                                "shuriken",
+                                "paint_gun"
                             ],
                             [
                                 "starter_hat",
                                 "pot_q",
-                                "bomb",
-                                "rock",
                                 "broken_scooter",
                                 "retainer"
                             ],
                             [
-                                
-                                "thrown_pencil_1",
-                                "sorbet",
+                                "thrown_pencil",
                                 "clippings",
                                 "bucket",
-                                "water",
-                                "clippings"
+                                "water"
                             ],
                             [
                                 "ore",
                                 "sandwich",
                                 "bug_net",
-                                "",
-                                "",
-                                ""
-                            ],
-                            [
-                                "hard",
-                                "can_clear_tutorial",
-                                "",
-                                "",
-                                "",
-                                ""
+                                "sorbet"
                             ]
                         ]
                     }
