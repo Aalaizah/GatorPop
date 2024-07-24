@@ -3,7 +3,7 @@
         {
             "package_version": "1.0.0.0",
             "download_url": "https://github.com/natronium/GatorPop/releases/download/1.0.0.0/GatorPop.zip",
-            "sha256": "SHA256: D7BF4AF65D26EF748AA1BBD95978C1ED0BC43A1663C2C64BC2C924F1DFCB386E",
+            "sha256": "D7BF4AF65D26EF748AA1BBD95978C1ED0BC43A1663C2C64BC2C924F1DFCB386E",
             "changelog": [
                 "Initial release"
             ]
