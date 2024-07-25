@@ -50,7 +50,7 @@ function sword()
     local swords = {"stick","sword","paintbrush","spear","grabby_hand","laser_sword","bug_net","nunchucks","wrench","pencil","paleolithic","wand"}
     for i, item in ipairs(swords) do
         if has(item) then
-            return 1
+            return cardboard_destroyer()
         end
     end
     return 0
@@ -60,7 +60,7 @@ function shield()
     local shields = {"pot_lid","palette","platter","tube","skateboard","martin_shield","chessboard","big_leaf","tower_shield","trash_can","blue_scooter"}
     for i, item in ipairs(shields) do
         if has(item) then
-            return 1
+            return  cardboard_destroyer()
         end
     end
     return 0
