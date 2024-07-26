@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.0.1",
+            "download_url": "https://github.com/natronium/GatorPop/releases/download/1.0.0.0/GatorPop.zip",
+            "sha256": "B23425063F35B808D44DBE0C5EAC29B29608D8B41D7ED0C5E484A41E66AF9F14",
+            "changelog": [
+                "Update logic for sword and shield to match new logic in apworld"
+            ]
+        },
+        {
             "package_version": "1.0.0.0",
             "download_url": "https://github.com/natronium/GatorPop/releases/download/1.0.0.0/GatorPop.zip",
             "sha256": "D7BF4AF65D26EF748AA1BBD95978C1ED0BC43A1663C2C64BC2C924F1DFCB386E",
