@@ -17,6 +17,7 @@ function onClear(slot_data)
     end
     SLOT_DATA = slot_data
     CUR_INDEX = -1
+
     -- reset locations
     for _, v in pairs(LOCATION_MAPPING) do
         if v[1] then
@@ -61,6 +62,22 @@ function onClear(slot_data)
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
 
+    if SLOT_DATA and SLOT_DATA["start_with_freeplay"] == 1 then
+        print("Freeplay triggered")
+        Tracker:FindObjectForCode("freeplay").Active = true
+    else
+        Tracker:FindObjectForCode("freeplay").Active = false
+    end
+    if SLOT_DATA and SLOT_DATA["require_shield_jump"] == 1 then
+        Tracker:FindObjectForCode("shield_jump").Active = true
+    else
+        Tracker:FindObjectForCode("shield_jump").Active = false
+    end
+    if SLOT_DATA and SLOT_DATA["harder_ranged_quests"] == 1 then
+        Tracker:FindObjectForCode("hard").Active = true
+    else
+        Tracker:FindObjectForCode("hard").Active = false
+    end
 end
 
 -- called when an item gets collected

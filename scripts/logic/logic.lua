@@ -30,7 +30,7 @@ function can_clear_tutorial()
     if ENABLE_DEBUG_LOG then
         print(string.format("called can_clear_tutorial"))
     end
-    if SLOT_DATA["start_with_freeplay"] or (has("pot_q") and has("starter_hat") and cardboard_destroyer()) then
+    if has("freeplay") or (has("pot_q") and has("starter_hat") and cardboard_destroyer() == 1 ) then
         return 1 -- 1 => access is in logic
     end
     return 0 -- 0 => no access
@@ -77,9 +77,9 @@ function ranged()
 end
 
 function hard()
-    return SLOT_DATA["harder_ranged_quests"] --option for harder completion for two quests
+    return has("hard") --option for harder completion for two quests
 end
 
 function shield_jump()
-    return SLOT_DATA["require_shield_jump"] and shield()
+    return has("shield_jump") and shield()
 end

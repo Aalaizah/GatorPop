@@ -370,5 +370,23 @@
         "type": "toggle",
         "img": "images/items/camera.png",
         "codes": "camera"
+    },
+    {
+        "name": "Start with Freeplay",
+        "type": "toggle",
+        "img": "images/items/freeplay.png",
+        "codes": "freeplay"
+    },
+    {
+        "name": "Require Shield Jump",
+        "type": "toggle",
+        "img": "images/items/shield_jump.png",
+        "codes": "shield_jump"
+    },
+    {
+        "name": "Harder Ranged Quests",
+        "type": "toggle",
+        "img": "images/items/hard.png",
+        "codes": "hard"
     }
 ]
