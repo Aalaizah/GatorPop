@@ -3,7 +3,7 @@
         {
             "package_version": "1.0.2",
             "download_url": "https://github.com/natronium/GatorPop/releases/download/v1.0.2/GatorPop.zip",
-            "sha256": "E3ACB4DDF1852F29711559EC0C722BFBA4FE549F87092008603C8905458D6E36",
+            "sha256": "4CF6E0DFE8AB75F3D10F98D3933E8E3C9DF0732C853D390537813E33D0007802",
             "changelog": [
                 "Fix how slot data is used in the pack to address logic errors",
                 "Add toggle items so that yaml options are represented in poptracker interface"
