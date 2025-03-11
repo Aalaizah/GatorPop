@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "1.0.3",
+            "download_url": "https://github.com/natronium/GatorPop/releases/download/v1.0.3/GatorPop.zip",
+            "sha256": "39A9E8237DF05C5E26143C904422552A0CBFCA6A52E542032DE8F9F4C319E802",
+            "changelog": [
+                "Multi-Position Locations now work slightly better",
+                "Fix Romeo logic"
+            ]
+        },
+        {
             "package_version": "1.0.2",
             "download_url": "https://github.com/natronium/GatorPop/releases/download/v1.0.2/GatorPop.zip",
             "sha256": "4CF6E0DFE8AB75F3D10F98D3933E8E3C9DF0732C853D390537813E33D0007802",
